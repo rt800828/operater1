@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="c2V-Y0-6xD">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="Zq4-dP-qWz">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="3g3-p9-dY2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wkS-bL-cUN">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="青青草原-2" translatesAutoresizingMaskIntoConstraints="NO" id="9ZY-XW-55i">
+                                <rect key="frame" x="75" y="148" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="SHO-wZ-hc3">
+                                <rect key="frame" x="75" y="430" width="240" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">享譽盛名的公園，有著開闊的休閒草地、綿長的山坡溜滑梯、涼亭和步道。
+地址： 300新竹市香山區草原路
+營業時間： 
+24 小時營業
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jQ-v6-7GL">
+                                <rect key="frame" x="151" y="647" width="113" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="更多照片"/>
+                                <connections>
+                                    <segue destination="mXw-V3-Xk4" kind="show" id="uTX-Sl-meW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8ee-Wq-dp5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="nsu-bx-9ON"/>
+                    <navigationItem key="navigationItem" id="DfD-WM-Pzj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0B-qW-M5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12456.923076923076" y="-125.11848341232226"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3t1-Ql-yFE">
+            <objects>
+                <viewController id="mXw-V3-Xk4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ksu-ci-stS">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="青青草原 滑梯" translatesAutoresizingMaskIntoConstraints="NO" id="Uhc-6A-NOl">
+                                <rect key="frame" x="75" y="148" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="mlO-9z-GPO">
+                                <rect key="frame" x="75" y="390" width="240" height="209"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">新竹香山青青草原最長磨石子溜滑梯，超人氣戶外親子景點
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvi-S5-BP4">
+                                <rect key="frame" x="139" y="649" width="113" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="更多照片"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rvU-cn-1lX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fv1-dk-e2f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B3y-oa-bKo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13143.076923076922" y="-125.11848341232226"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Lrj-rZ-pSJ">
+            <objects>
+                <viewController modalTransitionStyle="partialCurl" modalPresentationStyle="fullScreen" id="hQV-LV-1PL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9kX-aG-uI7">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="司馬庫斯" translatesAutoresizingMaskIntoConstraints="NO" id="7Ra-9t-zdG">
+                                <rect key="frame" x="75" y="72" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="7Mq-ZQ-2S3">
+                                <rect key="frame" x="75" y="346" width="271" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">司馬庫斯，是位於台灣新竹縣尖石鄉後山高海拔的一個泰雅族部落，編屬於尖石鄉玉峰村第14鄰。居民全為泰雅族原住民。由於位處深山交通不便，且長期沒有電力供應，曾被稱為黑暗部落，也是台灣最深山的原住民部落，後來因為發現神木群所以發展觀光，現在成為一個重要的觀光地點。
+地址： 313新竹縣尖石鄉玉峰村14鄰司馬庫斯2號
+電話： 03 584 7687
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1K1-Sm-oyg">
+                                <rect key="frame" x="75" y="177" width="67" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spr-6x-cmV">
+                                <rect key="frame" x="154" y="701" width="113" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="更多照片"/>
+                                <connections>
+                                    <segue destination="eKT-VU-1qb" kind="show" id="azU-e8-EP9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fVR-Yt-hrG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="KAr-tO-r7T"/>
+                    <navigationItem key="navigationItem" id="UXJ-oW-x1E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T1F-CJ-XQO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12666.153846153846" y="586.49289099526061"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4BP-kx-CFB">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="eKT-VU-1qb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BbO-hD-iYS">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="司馬庫斯神木" translatesAutoresizingMaskIntoConstraints="NO" id="nep-N8-uUb">
+                                <rect key="frame" x="75" y="104" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="tgu-ft-Cxh">
+                                <rect key="frame" x="75" y="390" width="240" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">司馬庫斯神木群步道，是來到司馬庫斯部落必訪的景點，雄偉的司馬庫斯神木，每年總是吸引許多遊客前來朝聖。一起了解司馬庫斯神木群步道路線地圖、時間、交通，親自走訪一趟司馬庫斯神木群，揭開司馬庫斯千年巨木的神秘面紗吧！
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0XC-VL-vlD">
+                                <rect key="frame" x="139" y="695" width="113" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="更多照片"/>
+                                <connections>
+                                    <segue destination="fQl-Ay-Qxy" kind="show" id="dq5-FA-kH8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MtW-xh-HIb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="F2N-4Z-pzG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZKD-dO-cuQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13440" y="585.78199052132697"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zaI-TS-LrR">
+            <objects>
+                <viewController modalTransitionStyle="partialCurl" modalPresentationStyle="fullScreen" id="fQl-Ay-Qxy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qzo-aH-tUe">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="司馬庫斯 櫻花" translatesAutoresizingMaskIntoConstraints="NO" id="9GA-ZO-Dpy">
+                                <rect key="frame" x="75" y="104" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Yek-od-sf0">
+                                <rect key="frame" x="75" y="390" width="240" height="269"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">2022年司馬庫斯櫻花季從02/14(一)開始展開，但是2/11(五)部落裡的粉紅昭和櫻花卻已經綻放八成滿開，美不勝收根本就像置身唯美粉紅國度，司馬庫斯部落種植了約2000多株櫻花，想一睹最接近日本櫻花的美景，就來上帝的部落司馬庫斯吧！
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RTU-0t-21F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gt2-kG-TFi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BSV-11-moD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14255.384615384615" y="585.78199052132697"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ejx-Hm-He4">
+            <objects>
+                <viewController modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="uzn-GK-fNw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rtS-yt-b1w">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="新竹旅遊推薦" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l0N-5u-pCR">
+                                <rect key="frame" x="67" y="44" width="256" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="34"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NK8-Gi-e6V">
+                                <rect key="frame" x="114" y="529" width="163" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="青青草原"/>
+                                <connections>
+                                    <segue destination="3g3-p9-dY2" kind="show" id="UN8-fS-B2Z"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="新竹景點" translatesAutoresizingMaskIntoConstraints="NO" id="cWy-0u-JfY">
+                                <rect key="frame" x="16" y="104" width="358" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVe-hx-8et">
+                                <rect key="frame" x="114" y="612" width="163" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="司馬庫斯"/>
+                                <connections>
+                                    <segue destination="hQV-LV-1PL" kind="show" id="ldc-XH-nGD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="16Z-9t-iGb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lp6-Ok-Oqx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dHB-Yo-TtY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11620" y="344.07582938388623"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lBl-xG-6y1">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="CAo-39-eRB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Piz-Zf-tFs">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4F-aR-K2D">
+                                <rect key="frame" x="56" y="660" width="278" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="廟口鴨香飯"/>
+                                <connections>
+                                    <segue destination="iNT-6P-yhX" kind="show" id="UqN-PW-RFl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyd-37-ZTF">
+                                <rect key="frame" x="56" y="511" width="278" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="阿婆早餐店"/>
+                                <connections>
+                                    <segue destination="IIb-KE-RaN" kind="show" id="rQQ-kx-hKI"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="szZ-Ui-wYC">
+                                <rect key="frame" x="122" y="359" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="新竹美食推薦" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aEi-4e-0ON">
+                                <rect key="frame" x="90" y="44" width="234" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="31"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="新竹美食" translatesAutoresizingMaskIntoConstraints="NO" id="Z81-PI-BIU">
+                                <rect key="frame" x="56" y="117" width="278" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NV6-Ot-uWE">
+                                <rect key="frame" x="56" y="582" width="278" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="交大小木屋鬆餅"/>
+                                <connections>
+                                    <segue destination="N6m-8X-GVi" kind="show" id="CKF-Bt-hIa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LkV-cY-vG6">
+                                <rect key="frame" x="56" y="428" width="278" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="四川牛肉麵"/>
+                                <connections>
+                                    <segue destination="aEl-GD-ML6" kind="show" id="lTY-w7-6hi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Sls-f4-xQe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gmx-rI-pSe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3cR-cP-b8g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12630.76923076923" y="1265.4028436018957"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="pA0-p2-XAf">
+            <objects>
+                <viewController id="IIb-KE-RaN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MKu-ae-Ijw">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="阿婆早餐麵店" translatesAutoresizingMaskIntoConstraints="NO" id="AAm-3D-hgg">
+                                <rect key="frame" x="75" y="104" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="fXZ-pe-FYG">
+                                <rect key="frame" x="75" y="390" width="240" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">CP值超高紅油抄手麵、大份量蛋餅油條 / 交大與新竹高中週邊銅板美食
+窩客評價： 4.02 
+店家類別：餐飲&gt;早．午餐、宵夜&gt;中式早餐
+新竹市東區東山街6號
+ 03-5730-765</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1ZL-16-88S"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Y9X-QP-2xr"/>
+                    <navigationItem key="navigationItem" id="BFK-mc-TCt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hl2-xo-HY5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14748" y="1944"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="cXo-tZ-4e3">
+            <objects>
+                <viewController id="iNT-6P-yhX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zbg-3r-lWt">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="廟口鴨香飯" translatesAutoresizingMaskIntoConstraints="NO" id="Xg6-eF-1RK">
+                                <rect key="frame" x="75" y="104" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="OER-Eb-rxt">
+                                <rect key="frame" x="75" y="390" width="240" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">新竹廟口鴨香飯是城隍廟口必吃美食之一
+推薦鴨香飯跟炒鴨血必點
+外帶還能直接用觸碰螢幕點餐超方便
+中山店
+地址：新竹市北區中山路142號
+電話：03-523 1190
+營業時間：11:00-21:00(15:00-15:30休息)
+
+中正店
+地址：新竹市北區中正路258號
+電話：03-535 9298
+營業時間：11:00-21:00 (15:00-15:30休息)
+
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jwS-uT-fWC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="VBW-uj-gts"/>
+                    <navigationItem key="navigationItem" id="GUu-ei-PS4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nx5-bV-JNx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13057" y="1945"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="9aV-a3-55T">
+            <objects>
+                <viewController id="N6m-8X-GVi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4UC-aT-PD4">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="7AV-Zy-hEI">
+                                <rect key="frame" x="75" y="390" width="240" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">價格相當平實  從30~50元不等,鬆餅和飲料各有二、三十種  讓人看得眼花撩亂 拿不定主意販售的鬆餅分為”鹹鬆餅”與”甜鬆餅”
+大學校園裡賣的   沒有俗擱大碗  學生是不吃這套的
+電話：(03)5735754
+
+ 地址：300 新竹市東區大學路1001號交通大學資訊技術服務中心前餐亭
+
+ 營業時間：平日07:30~20:00假日09:30~19:00
+
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="國立交通大學小木屋鬆餅" translatesAutoresizingMaskIntoConstraints="NO" id="B6k-5u-oag">
+                                <rect key="frame" x="75" y="104" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yh1-tA-AAr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="EOZ-4a-DqF"/>
+                    <navigationItem key="navigationItem" id="egb-9j-mKl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W8d-xi-i2j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13875" y="1944"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="t6k-JZ-6x1">
+            <objects>
+                <viewController id="aEl-GD-ML6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EeN-3Q-6OP">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="四川段純貞-武陵店新址" translatesAutoresizingMaskIntoConstraints="NO" id="c3a-rz-U3m">
+                                <rect key="frame" x="75" y="104" width="240" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="cT4-JH-Oer">
+                                <rect key="frame" x="75" y="346" width="240" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">段純貞牛肉麵
+
+地址：300新竹市東區建功一路135號
+電話：03 574 8838
+營業時間：
+（ 週二～週五 ）11:30-14:00；17:30-20:30
+（ 週六～週日 ）11:30-14:30；17:30-20:30
+週一公休
+＊不收服務費
+價位：＄240／人
+推薦菜色：蒜味紅燒牛肉麵－手工麵、滷味
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="M1l-KP-bnj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ZQj-Wg-Sx7"/>
+                    <navigationItem key="navigationItem" id="mJy-5o-ALx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sKA-g3-66L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15605" y="1944"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ojj-gW-g2O">
+            <objects>
+                <viewController id="xhc-1e-B2x" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MiW-Dj-1f0">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="新竹吃喝玩樂" translatesAutoresizingMaskIntoConstraints="NO" id="asu-3D-frb">
+                                <rect key="frame" x="16" y="104" width="358" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="新竹懶人包" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G2t-zN-Tdo">
+                                <rect key="frame" x="67" y="44" width="256" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="34"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="igy-q3-z9D"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="adq-yE-bdr"/>
+                    <navigationItem key="navigationItem" id="B1C-qg-YdA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O2t-CD-yEz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9949" y="708"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="BbC-4a-VnL">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="c2V-Y0-6xD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qVe-Rp-1XN">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xhc-1e-B2x" kind="relationship" relationship="viewControllers" id="XKo-ck-Puj"/>
+                        <segue destination="EGo-6U-t39" kind="relationship" relationship="viewControllers" id="hdR-cz-NOz"/>
+                        <segue destination="IfO-MI-dQA" kind="relationship" relationship="viewControllers" id="54j-7Z-aal"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3i5-d2-yhn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9112.3076923076915" y="708.05687203791467"/>
+        </scene>
+        <!-- 旅遊-->
+        <scene sceneID="c3J-s7-edz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EGo-6U-t39" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title=" 旅遊" image="car.fill" catalog="system" id="ebE-NL-pcp"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Usq-BC-m5r">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uzn-GK-fNw" kind="relationship" relationship="rootViewController" id="Adm-lJ-AVy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cU8-71-yeY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10690.76923076923" y="344.78672985781986"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="0XC-eQ-Zqq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IfO-MI-dQA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="MxE-dw-yjY"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UaS-iW-ccO">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CAo-39-eRB" kind="relationship" relationship="rootViewController" id="WuO-Jz-x4o"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OX9-3l-vLf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11701.538461538461" y="1265.4028436018957"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car.fill" catalog="system" width="128" height="93"/>
+        <image name="司馬庫斯" width="600" height="400"/>
+        <image name="司馬庫斯 櫻花" width="600" height="400"/>
+        <image name="司馬庫斯神木" width="275" height="183"/>
+        <image name="四川段純貞-武陵店新址" width="1080" height="1080"/>
+        <image name="國立交通大學小木屋鬆餅" width="1080" height="1350"/>
+        <image name="廟口鴨香飯" width="1080" height="1080"/>
+        <image name="新竹吃喝玩樂" width="600" height="450"/>
+        <image name="新竹景點" width="1000" height="550"/>
+        <image name="新竹美食" width="1772" height="960"/>
+        <image name="阿婆早餐麵店" width="1080" height="810"/>
+        <image name="青青草原 滑梯" width="251" height="201"/>
+        <image name="青青草原-2" width="275" height="183"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

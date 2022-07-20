@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "26149723798f47cf7a785faebd9bc001b559f895453053654ac18eb2d36cc17f"
+    }
+  ],
+  "containerPath" : "/Users/samsu/Desktop/bbbb/operater1/operater1.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/samsu/Desktop/bbbb/operater1/DerivedData/operater1/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/samsu/Desktop/bbbb/operater1/DerivedData/operater1/Index/Build/Products",
+      "derivedDataPath" : "/Users/samsu/Desktop/bbbb/operater1/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/samsu/Desktop/bbbb/operater1/DerivedData/operater1/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/samsu/Desktop/bbbb/operater1/DerivedData/operater1/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/samsu/Desktop/bbbb/operater1/DerivedData/operater1/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/samsu/Desktop/bbbb/operater1/DerivedData/operater1/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
